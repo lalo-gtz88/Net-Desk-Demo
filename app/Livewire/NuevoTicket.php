@@ -124,7 +124,7 @@ class NuevoTicket extends Component
     public function guardar()
     {
         if ($this->direccionIp) {
-            $this->ip = "172.16.{$this->direccionIp}";
+            $this->ip = "192.168.{$this->direccionIp}";
         }
 
         $this->validate([
